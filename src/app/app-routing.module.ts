@@ -47,8 +47,6 @@ const routes: Routes = [
     path: 'date-time',
     loadChildren: () => import('./pages/date-time/date-time.module').then( m => m.DateTimePageModule)
   },
-<<<<<<< HEAD
-=======
   {
     path: 'select',
     loadChildren: () => import('./pages/select/select.module').then( m => m.SelectPageModule)
@@ -72,8 +70,7 @@ const routes: Routes = [
   {
     path: 'chip',
     loadChildren: () => import('./pages/chip/chip.module').then( m => m.ChipPageModule)
-  },
->>>>>>> f363ca3 (Componentes Yaravith)
+  }
 ];
 
 @NgModule({

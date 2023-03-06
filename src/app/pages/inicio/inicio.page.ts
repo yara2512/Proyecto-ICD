@@ -57,8 +57,6 @@ export class InicioPage implements OnInit {
       icon:"rocket-outline",
       name:"TOOLBAR - PAGE",
       redirectTo:"/toolbar"
-<<<<<<< HEAD
-=======
     },
     {
       icon:"clipboard-outline",
@@ -89,7 +87,6 @@ export class InicioPage implements OnInit {
       icon:"clipboard-outline",
       name:"CHIP",
       redirectTo:"/chip"
->>>>>>> f363ca3 (Componentes Yaravith)
     }
   ];
   constructor() { }
