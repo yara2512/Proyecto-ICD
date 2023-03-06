@@ -57,6 +57,39 @@ export class InicioPage implements OnInit {
       icon:"rocket-outline",
       name:"TOOLBAR - PAGE",
       redirectTo:"/toolbar"
+<<<<<<< HEAD
+=======
+    },
+    {
+      icon:"clipboard-outline",
+      name:"SELECT",
+      redirectTo:"/select"
+    },
+    {
+      icon:"clipboard-outline",
+      name:"TOGGLE",
+      redirectTo:"/toggle"
+    },
+    {
+      icon:"clipboard-outline",
+      name:"ACCORDION",
+      redirectTo:"/accordion"
+    },
+    {
+      icon:"clipboard-outline",
+      name:"LIST",
+      redirectTo:"/list"
+    },
+    {
+      icon:"clipboard-outline",
+      name:"CARD",
+      redirectTo:"/card"
+    },
+    {
+      icon:"clipboard-outline",
+      name:"CHIP",
+      redirectTo:"/chip"
+>>>>>>> f363ca3 (Componentes Yaravith)
     }
   ];
   constructor() { }

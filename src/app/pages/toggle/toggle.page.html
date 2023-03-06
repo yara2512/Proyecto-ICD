@@ -1,0 +1,22 @@
+<app-header titulo="Page TOGGLE "></app-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item>
+          <ion-label>Default Toggle</ion-label>
+          <ion-toggle color="light" slot="end"></ion-toggle>
+        </ion-item>
+        <ion-item>
+          <ion-label>Checked Toggle</ion-label>
+          <ion-toggle slot="end" [checked]="true"></ion-toggle>
+        </ion-item>
+        <ion-item>
+          <ion-label>Disabled Toggle</ion-label>
+          <ion-toggle slot="end" [disabled]="true"></ion-toggle>
+        </ion-item>
+        <ion-item>
+          <ion-label>Disabled Checked Toggle</ion-label>
+          <ion-toggle color="secondary"  slot="end" [checked]="true" [disabled]="true"></ion-toggle>
+        </ion-item>
+    </ion-list>
+</ion-content>
