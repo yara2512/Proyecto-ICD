@@ -70,7 +70,99 @@ const routes: Routes = [
   {
     path: 'chip',
     loadChildren: () => import('./pages/chip/chip.module').then( m => m.ChipPageModule)
+  },  {
+    path: 'range',
+    loadChildren: () => import('./pages/range/range.module').then( m => m.RangePageModule)
+  },
+  {
+    path: 'badge',
+    loadChildren: () => import('./pages/badge/badge.module').then( m => m.BadgePageModule)
+  },
+  {
+    path: 'breadcrumb',
+    loadChildren: () => import('./pages/breadcrumb/breadcrumb.module').then( m => m.BreadcrumbPageModule)
+  },
+  {
+    path: 'toast',
+    loadChildren: () => import('./pages/toast/toast.module').then( m => m.ToastPageModule)
+  },
+  {
+    path: 'slides',
+    loadChildren: () => import('./pages/slides/slides.module').then( m => m.SlidesPageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'button',
+    loadChildren: () => import('./pages/button/button.module').then( m => m.ButtonPageModule)
+  },
+  {
+    path: 'floating',
+    loadChildren: () => import('./pages/floating/floating.module').then( m => m.FloatingPageModule)
+  },
+  {
+    path: 'typografy',
+    loadChildren: () => import('./pages/typografy/typografy.module').then( m => m.TypografyPageModule)
+  },
+  {
+    path: 'infinite',
+    loadChildren: () => import('./pages/infinite/infinite.module').then( m => m.InfinitePageModule)
+  },
+  {
+    path: 'menu',
+    loadChildren: () => import('./pages/menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'segment',
+    loadChildren: () => import('./pages/segment/segment.module').then( m => m.SegmentPageModule)
+  },
+  {
+    path: 'progress',
+    loadChildren: () => import('./pages/progress/progress.module').then( m => m.ProgressPageModule)
+  },
+  {
+    path: 'refresher',
+    loadChildren: () => import('./pages/refresher/refresher.module').then( m => m.RefresherPageModule)
+  },
+  {
+    path: 'media',
+    loadChildren: () => import('./pages/media/media.module').then( m => m.MediaPageModule)
+  },
+  {
+    path: 'navigation',
+    loadChildren: () => import('./pages/navigation/navigation.module').then( m => m.NavigationPageModule)
+  },
+  {
+    path: 'popover',
+    loadChildren: () => import('./pages/popover/popover.module').then( m => m.PopoverPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./pages/grid/grid.module').then( m => m.GridPageModule)
+  },
+  {
+    path: 'radio',
+    loadChildren: () => import('./pages/radio/radio.module').then( m => m.RadioPageModule)
+  },
+  {
+    path: 'reorder',
+    loadChildren: () => import('./pages/reorder/reorder.module').then( m => m.ReorderPageModule)
+  },
+  {
+    path: 'routing',
+    loadChildren: () => import('./pages/routing/routing.module').then( m => m.RoutingPageModule)
+  },
+  {
+    path: 'item',
+    loadChildren: () => import('./pages/item/item.module').then( m => m.ItemPageModule)
+  },
+  {
+    path: 'searchbar',
+    loadChildren: () => import('./pages/searchbar/searchbar.module').then( m => m.SearchbarPageModule)
   }
+
 ];
 
 @NgModule({

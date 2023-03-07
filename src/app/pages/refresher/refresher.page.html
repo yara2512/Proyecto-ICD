@@ -1,0 +1,9 @@
+<app-header titulo="PAGE Pull to Refresh"></app-header>
+
+<ion-content class="ion-padding">
+  <ion-refresher slot="fixed" (ionRefresh)="($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <p>Pull this content down to trigger the refresh.</p>
+</ion-content>
